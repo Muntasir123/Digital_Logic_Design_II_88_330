@@ -2,6 +2,8 @@
 -- A button is used to traverse the states
 -- Another button is used to reset the state to zero
 -- Four LEDs were used to represent the current state on the machine
+-- The ones column will range from 0-9 (0000 to 10001) and then trigger a response on the
+-- 10's column which will go to 5 (0101)
 
 library ieee;
 use ieee.std_logic_1164.all;
